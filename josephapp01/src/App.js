@@ -10,13 +10,14 @@ function App() {
     <div className="container-fluid">
       <Navbar/>
       <br></br>
-      <div className='row mb-5'>
-        <div className='col-sm-5 col-md-4' ><ListGroup/></div>
-        <div className='col-sm-5 col-md-8'>
+      <div className='row justify-content-md-center'>
+        <div className='col-sm- col-md-3' ><ListGroup/></div>
+        <div className='col-md-auto '>
         <Main/></div>
       </div>
-      
+      <div>
       <Cards/>
+      </div>
     </div>
   );
 }

@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.bg{
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+    height: 400px;
+    position: relative;
+    background-position: center;
+    /* p-5 text-center bg-image */
+}
+/* .mask{
+  background-color: rgba(0, 0, 0, 0.6);
+} */
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://files.worldwildlife.org/wwfcmsprod/images/Deforestation_in_Borneo/hero_full/9k2ucnobpj_deforestation_overviewXL_278723.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer{
+  background-color: #dfdfdf;
+}
+

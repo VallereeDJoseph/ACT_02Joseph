@@ -4,6 +4,9 @@ import logo2 from './pic2.jpg';
 import logo3 from './pic3.jpg';
 const Main =()=>{
     return (
+      <div class="container">
+      <div class="row justify-content-md-center">
+      <div class="col-md-auto">
         <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -69,8 +72,11 @@ const Main =()=>{
                 </div>
             </div>
             </div>
+
       </div>
-      
+      </div>
+      </div>
+      </div>
     );
 };
 export default Main;

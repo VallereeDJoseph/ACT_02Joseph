@@ -1,6 +1,9 @@
 import React from 'react';
 const ListGroup =()=>{
     return (
+      <div class="container">
+        <div class="row justify-content-md-center">
+        <div class="col-md-auto">
         <ul className="list-group list-group-light mb-3">
         <li className="list-group-item">
           <h5 className="fw-bold">The Glasgow Climate Summit</h5>
@@ -36,9 +39,11 @@ const ListGroup =()=>{
             <p className="text-muted mb-0">
             Nature-based solutions offer innovative ways to mitigate and adapt to climate change. This approach involves conserving and restoring natural ecosystems, such as forests, wetlands, and mangroves, which act as carbon sinks and provide multiple co-benefits, including biodiversity preservation and disaster risk reduction. Initiatives like the Bonn Challenge and REDD+ are driving action towards sustainable land use and forest conservation.
             </p>
-            
         </li>
       </ul>
+      </div>
+      </div>
+      </div>
       
 
 );
