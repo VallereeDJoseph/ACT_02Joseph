@@ -11,12 +11,9 @@ function App() {
       <Navbar/>
       <br></br>
       <div className='row justify-content-md-center'>
-        <div className='col-sm- col-md-3' ><ListGroup/></div>
-        <div className='col-md-auto '>
-        <Main/></div>
-      </div>
-      <div>
-      <Cards/>
+        <div className='col-sm-5 col-md-3' ><ListGroup/></div>
+        <div className='col-md-auto '><Main/></div>
+        <Cards/>
       </div>
     </div>
   );
