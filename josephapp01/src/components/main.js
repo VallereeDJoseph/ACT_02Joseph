@@ -68,23 +68,23 @@ const Main =()=>{
             <br></br>
             <br></br>
             <strong>DONATE NOW</strong>
-            <div className="row row-cols-1 row-cols-md-2 g-4">
-            <div className="col">
+            <div className="row row-cols-1 row-cols-md-2 g-4 ">
+            <div className="col ">
               <div className="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXEPFp7wAjuNbGvP1fPXzxXBJ9WxnXAZ3hTedhc2cUX1P0khm8CMj7Wit_vUFWE1FJI0&usqp=CAU" className="card-img-top" 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXEPFp7wAjuNbGvP1fPXzxXBJ9WxnXAZ3hTedhc2cUX1P0khm8CMj7Wit_vUFWE1FJI0&usqp=CAU" className="card-img-top object-fit-fill border rounded " 
                   alt="Hollywood Sign on The Hill" />
                 <div className="card-body">
                   <h5 className="card-title">Cool Earth</h5>
                   <p className="card-text">
                   We back people to protect rainforest and fight the climate crisis.
                   </p>
-                  <a href="https://www.coolearth.org/" class="btn btn-primary">Go somewhere</a>
+                  <a href="https://www.coolearth.org/" class="btn btn-primary">Donate</a>
                 </div>
               </div>
             </div>
             <div className="col">
               <div className="card">
-                <img src="https://cdn.sanity.io/images/4rsg7ofo/production/725f28d6e617063851671ccdd515c068158f691e-1000x1000.jpg?w=3840&q=75&fit=clip&auto=format" className="card-img-top"
+                <img src="https://cdn.sanity.io/images/4rsg7ofo/production/725f28d6e617063851671ccdd515c068158f691e-1000x1000.jpg?w=3840&q=75&fit=clip&auto=format" className="card-img-top object-fit-fill border rounded"
                   alt="Palm Springs Road" />
                 <div className="card-body">
                   <h5 className="card-title">Clean Air Task Force</h5>
@@ -93,44 +93,44 @@ const Main =()=>{
 
 
                   </p>
-                  <a href="https://www.catf.us/" class="btn btn-primary">Go somewhere</a>
+                  <a href="https://www.catf.us/" class="btn btn-primary">Donate</a>
 
                 </div>
               </div>
             </div>
             <div className="col">
               <div className="card">
-                <img src="https://cdn.slidesharecdn.com/ss_thumbnails/greenpeace2-131204152947-phpapp02-thumbnail.jpg?w=3840&q=90" className="card-img-top"
+                <img src="https://cdn.slidesharecdn.com/ss_thumbnails/greenpeace2-131204152947-phpapp02-thumbnail.jpg?w=3840&q=90" className="card-img-top object-fit-fill border rounded"
                   alt="Los Angeles Skyscrapers" />
                 <div className="card-body">
                   <h5 className="card-title">Greenpeace Philippines</h5>
                   <p className="card-text">This is where you come in. If you want a green and just world, we’ll march alongside you. If you’ve got ideas for how to get there, we want to learn from you. Let’s dream together, plan together and act together.</p>
-                    <a href="https://www.greenpeace.org/philippines/" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.greenpeace.org/philippines/" class="btn btn-primary">Donate</a>
 
                 </div>
               </div>
             </div>
             <div className="col">
               <div className="card">
-                <img src="https://www.patagonia.com/actionworks/wp-content/uploads/2018/02/uploaded-earthjustice-logo-800.png" className="card-img-top"
+                <img src="https://www.patagonia.com/actionworks/wp-content/uploads/2018/02/uploaded-earthjustice-logo-800.png" className="card-img-top object-fit-fill border rounded"
                   alt="Skyscrapers" />
                 <div className="card-body">
                   <h5 className="card-title">Earthjustice</h5>
                   <p className="card-text">
                   Earthjustice is a nonprofit public interest organization based in the United States dedicated to litigating environmental issues.
                   </p>
-                  <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjt_Muvq8T_AhWWj5YKHW0SANAYABAAGgJ0bA&sig=AOD64_1n8OTe8eoE45RTJGY6FwBRR9zmNQ&q&adurl&ved=2ahUKEwjwicOvq8T_AhUYBYgKHYJ3CNgQ0Qx6BAgGEAE" class="btn btn-primary">Go somewhere</a>
+                  <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjt_Muvq8T_AhWWj5YKHW0SANAYABAAGgJ0bA&sig=AOD64_1n8OTe8eoE45RTJGY6FwBRR9zmNQ&q&adurl&ved=2ahUKEwjwicOvq8T_AhUYBYgKHYJ3CNgQ0Qx6BAgGEAE" class="btn btn-primary">Donate</a>
 
                 </div>
               </div>
             </div>
+          </div>
           </div>
 
       </div>
       </div>
       </div>
 
-      </div>
     );
 };
 export default Main;
