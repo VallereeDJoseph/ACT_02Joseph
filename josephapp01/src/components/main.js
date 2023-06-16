@@ -66,6 +66,18 @@ const Main =()=>{
             </div>
             </div>
             <br></br>
+            
+            {/* <div className="wp-block-image ">
+              <figure class="aligncenter">
+                  <img  width="50%" height="75%" src="https://www.ciit.edu.ph/wp-content/uploads/2019/10/CIIT-Simple-Ways-a-Student-Like-You-Can-Save-Revision-01.jpg" alt="Infographic of how a student can save the environment" className="wp-image-17962" >
+                  </img>
+                  <h4>Epcot Center</h4>
+                  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                  
+                </figure>
+                  
+              </div> */}
+
             <br></br>
             <div className = ''>
             <strong>DONATE NOW</strong>
