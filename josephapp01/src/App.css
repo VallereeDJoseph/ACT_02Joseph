@@ -59,5 +59,16 @@
 footer{
   background-color: #dfdfdf;
 }
-
+.di{
+  display: grid;
+  height: 400px;
+  align-content: center;
+  
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  text-decoration: none;
+  background-color: rgba(28, 45, 78, 0);
+  color: rgb(0, 0, 0);
+}
 

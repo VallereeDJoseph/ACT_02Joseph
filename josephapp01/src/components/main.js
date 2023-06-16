@@ -67,10 +67,11 @@ const Main =()=>{
             </div>
             <br></br>
             <br></br>
+            <div className = ''>
             <strong>DONATE NOW</strong>
-            <div className="row row-cols-1 row-cols-md-2 g-4 ">
+            <div className="row row-cols-1 row-cols-md-4 g-4 ">
             <div className="col ">
-              <div className="card">
+              <div className="card di">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXEPFp7wAjuNbGvP1fPXzxXBJ9WxnXAZ3hTedhc2cUX1P0khm8CMj7Wit_vUFWE1FJI0&usqp=CAU" className="card-img-top object-fit-fill border rounded " 
                   alt="Hollywood Sign on The Hill" />
                 <div className="card-body">
@@ -83,7 +84,7 @@ const Main =()=>{
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className="card di">
                 <img src="https://cdn.sanity.io/images/4rsg7ofo/production/725f28d6e617063851671ccdd515c068158f691e-1000x1000.jpg?w=3840&q=75&fit=clip&auto=format" className="card-img-top object-fit-fill border rounded"
                   alt="Palm Springs Road" />
                 <div className="card-body">
@@ -99,7 +100,7 @@ const Main =()=>{
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className="card di">
                 <img src="https://cdn.slidesharecdn.com/ss_thumbnails/greenpeace2-131204152947-phpapp02-thumbnail.jpg?w=3840&q=90" className="card-img-top object-fit-fill border rounded"
                   alt="Los Angeles Skyscrapers" />
                 <div className="card-body">
@@ -111,7 +112,7 @@ const Main =()=>{
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className="card di">
                 <img src="https://www.patagonia.com/actionworks/wp-content/uploads/2018/02/uploaded-earthjustice-logo-800.png" className="card-img-top object-fit-fill border rounded"
                   alt="Skyscrapers" />
                 <div className="card-body">
@@ -131,6 +132,7 @@ const Main =()=>{
       </div>
       </div>
 
+      </div>
     );
 };
 export default Main;
